@@ -34,7 +34,7 @@
 		8DF837B12A8B809100D337EA /* AgoraAppGroupDataHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 8DF837B02A8B809100D337EA /* AgoraAppGroupDataHelper */; };
 		8DF837B32A8B809100D337EA /* AgoraBroadcastExtensionHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 8DF837B22A8B809100D337EA /* AgoraBroadcastExtensionHelper */; };
 		8DF837B52A8B809200D337EA /* AgoraUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8DF837B42A8B809200D337EA /* AgoraUIKit */; };
-		8DF837B72A8BE14400D337EA /* NoiceCancellationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF837B62A8BE14300D337EA /* NoiceCancellationView.swift */; };
+		8DF837B72A8BE14400D337EA /* ModifyAudioFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF837B62A8BE14300D337EA /* ModifyAudioFrame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,7 +50,7 @@
 		8DF837862A8B6A8600D337EA /* AgoraManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgoraManager.swift; sourceTree = "<group>"; };
 		8DF837872A8B6A8600D337EA /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
 		8DF837AB2A8B748A00D337EA /* ChannelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelView.swift; sourceTree = "<group>"; };
-		8DF837B62A8BE14300D337EA /* NoiceCancellationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoiceCancellationView.swift; sourceTree = "<group>"; };
+		8DF837B62A8BE14300D337EA /* ModifyAudioFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyAudioFrame.swift; sourceTree = "<group>"; };
 		FFC495FE8ED4E8563D63F4ED /* Pods-CallingAgora_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallingAgora_App.debug.xcconfig"; path = "Target Support Files/Pods-CallingAgora_App/Pods-CallingAgora_App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,7 +116,6 @@
 				8DF837752A8B4C2900D337EA /* CallingAgora_AppApp.swift */,
 				8DF837772A8B4C2900D337EA /* ContentView.swift */,
 				8DF837AB2A8B748A00D337EA /* ChannelView.swift */,
-				8DF837B62A8BE14300D337EA /* NoiceCancellationView.swift */,
 				8DF837792A8B4C2A00D337EA /* Assets.xcassets */,
 				8DF8377B2A8B4C2A00D337EA /* Preview Content */,
 			);
@@ -138,6 +137,7 @@
 				8DF837852A8B6A8600D337EA /* AgoraVideoCanvasView.swift */,
 				8DF837872A8B6A8600D337EA /* config.json */,
 				8DF837842A8B6A8500D337EA /* DocsAppConfig.swift */,
+				8DF837B62A8BE14300D337EA /* ModifyAudioFrame.swift */,
 			);
 			path = AgoraManager;
 			sourceTree = "<group>";
@@ -311,7 +311,7 @@
 				8DF837882A8B6A8600D337EA /* DocsAppConfig.swift in Sources */,
 				8DF837892A8B6A8600D337EA /* AgoraVideoCanvasView.swift in Sources */,
 				8DF837782A8B4C2900D337EA /* ContentView.swift in Sources */,
-				8DF837B72A8BE14400D337EA /* NoiceCancellationView.swift in Sources */,
+				8DF837B72A8BE14400D337EA /* ModifyAudioFrame.swift in Sources */,
 				8DF837AC2A8B748A00D337EA /* ChannelView.swift in Sources */,
 				8DF837762A8B4C2900D337EA /* CallingAgora_AppApp.swift in Sources */,
 			);

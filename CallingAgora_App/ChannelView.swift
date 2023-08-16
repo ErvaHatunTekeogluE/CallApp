@@ -50,15 +50,6 @@ struct ChannelView: View {
             agoraManager.leaveChannel()
         }
     }
-    func setAudio(uid: UInt){
-       // volumeBinding(for: uid)
-       
-       
-    }
-    
-    func setVideo(isMute: Bool){
-      // self.agoraEngine.muteLocalVideoStream(isMute)
-    }
 }
 
 struct CircularButton: View {

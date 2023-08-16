@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C8B5CD2E-DB9E-4C81-9913-4FB4A2796F47"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0BE46269-C59C-49FA-B80A-AA192C17A490"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CallingAgora_App/ModifyAudioFrame.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "ModifyAudioFrameDelegate"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "644A156C-4C41-4A80-9E44-E903C96C101A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CallingAgora_App/ModifyAudioFrame.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "processAudioFrame(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "644A156C-4C41-4A80-9E44-E903C96C101A - a15db49de0cd8f3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CallingAgora_App.ModifyAudioFrameDelegate.processAudioFrame(__C.AgoraAudioFrame) -&gt; ()"
+                  moduleName = "CallingAgora_App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ervahatuntekeoglu/Documents/Projects/CallApp/CallingAgora_App/ModifyAudioFrame.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "1940">
+               </Location>
+               <Location
+                  uuid = "644A156C-4C41-4A80-9E44-E903C96C101A - a15db49de0cd8f3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CallingAgora_App.ModifyAudioFrameDelegate.processAudioFrame(__C.AgoraAudioFrame) -&gt; ()"
+                  moduleName = "CallingAgora_App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ervahatuntekeoglu/Documents/Projects/CallApp/CallingAgora_App/ModifyAudioFrame.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "1640">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4E932AE1-63B7-4F1D-9947-79B3EC3DFDDC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CallingAgora_App/ModifyAudioFrame.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "onRecordAudioFrame(_:channelId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4E932AE1-63B7-4F1D-9947-79B3EC3DFDDC - 24b18877a9f08dc0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.UnsafeRawBufferPointer) -&gt; () in CallingAgora_App.ModifyAudioFrameDelegate.onRecordAudioFrame(_: __C.AgoraAudioFrame, channelId: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "CallingAgora_App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ervahatuntekeoglu/Documents/Projects/CallApp/CallingAgora_App/ModifyAudioFrame.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "236">
+               </Location>
+               <Location
+                  uuid = "4E932AE1-63B7-4F1D-9947-79B3EC3DFDDC - 24b18877a9f08dc0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.UnsafeRawBufferPointer) -&gt; () in CallingAgora_App.ModifyAudioFrameDelegate.onRecordAudioFrame(_: __C.AgoraAudioFrame, channelId: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "CallingAgora_App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ervahatuntekeoglu/Documents/Projects/CallApp/CallingAgora_App/ModifyAudioFrame.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "120">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B088B1E-06E0-4B78-868C-B52691D84F72"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CallingAgora_App/ModifyAudioFrame.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "onRecordAudioFrame(_:channelId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6B088B1E-06E0-4B78-868C-B52691D84F72 - 24b18877a9f08d82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.UnsafeRawBufferPointer) -&gt; () in CallingAgora_App.ModifyAudioFrameDelegate.onRecordAudioFrame(_: __C.AgoraAudioFrame, channelId: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "CallingAgora_App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ervahatuntekeoglu/Documents/Projects/CallApp/CallingAgora_App/ModifyAudioFrame.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "6B088B1E-06E0-4B78-868C-B52691D84F72 - 24b18877a9f08d82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.UnsafeRawBufferPointer) -&gt; () in CallingAgora_App.ModifyAudioFrameDelegate.onRecordAudioFrame(_: __C.AgoraAudioFrame, channelId: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "CallingAgora_App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ervahatuntekeoglu/Documents/Projects/CallApp/CallingAgora_App/ModifyAudioFrame.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "6B088B1E-06E0-4B78-868C-B52691D84F72 - a8e8842e01201d60"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CallingAgora_App.ModifyAudioFrameDelegate.onRecordAudioFrame(_: __C.AgoraAudioFrame, channelId: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "CallingAgora_App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ervahatuntekeoglu/Documents/Projects/CallApp/CallingAgora_App/ModifyAudioFrame.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "824">
+               </Location>
+               <Location
+                  uuid = "6B088B1E-06E0-4B78-868C-B52691D84F72 - 24b18877a9f08da3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.UnsafeRawBufferPointer) -&gt; () in CallingAgora_App.ModifyAudioFrameDelegate.onRecordAudioFrame(_: __C.AgoraAudioFrame, channelId: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "CallingAgora_App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ervahatuntekeoglu/Documents/Projects/CallApp/CallingAgora_App/ModifyAudioFrame.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "6B088B1E-06E0-4B78-868C-B52691D84F72 - a8e8842e01201d60"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CallingAgora_App.ModifyAudioFrameDelegate.onRecordAudioFrame(_: __C.AgoraAudioFrame, channelId: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "CallingAgora_App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ervahatuntekeoglu/Documents/Projects/CallApp/CallingAgora_App/ModifyAudioFrame.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "788">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E59AE831-AA02-4878-818F-9B917A2A8BB2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CallingAgora_App/ModifyAudioFrame.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "onRecordAudioFrame(_:channelId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E59AE831-AA02-4878-818F-9B917A2A8BB2 - a8e8842e01201dbf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CallingAgora_App.ModifyAudioFrameDelegate.onRecordAudioFrame(_: __C.AgoraAudioFrame, channelId: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "CallingAgora_App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ervahatuntekeoglu/Documents/Projects/CallApp/CallingAgora_App/ModifyAudioFrame.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "768">
+               </Location>
+               <Location
+                  uuid = "E59AE831-AA02-4878-818F-9B917A2A8BB2 - a8e8842e01201dfd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CallingAgora_App.ModifyAudioFrameDelegate.onRecordAudioFrame(_: __C.AgoraAudioFrame, channelId: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "CallingAgora_App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ervahatuntekeoglu/Documents/Projects/CallApp/CallingAgora_App/ModifyAudioFrame.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "652">
+               </Location>
+               <Location
+                  uuid = "E59AE831-AA02-4878-818F-9B917A2A8BB2 - a8e8842e01201dfd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CallingAgora_App.ModifyAudioFrameDelegate.onRecordAudioFrame(_: __C.AgoraAudioFrame, channelId: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "CallingAgora_App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ervahatuntekeoglu/Documents/Projects/CallApp/CallingAgora_App/ModifyAudioFrame.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "616">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB8F953B-2598-4B75-8F13-F4F5E1AD28ED"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/Koala-iOS/binding/ios/Koala.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "process(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CA1EBF50-498C-4472-9BAF-6F3FDB3A31CD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CallingAgora_App/ModifyAudioFrame.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "onRecordAudioFrame(_:channelId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "84721103-652E-42E2-8E0E-497F0744D654"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CallingAgora_App/ModifyAudioFrame.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "onRecordAudioFrame(_:channelId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -12,7 +12,7 @@ import AgoraRtcKit
 ///
 /// Use AgoraManager to set up and manage Agora RTC sessions, manage the client's role,
 /// and control the client's connection to the Agora RTC server.
-open class AgoraManager: NSObject, ObservableObject, AgoraRtcEngineDelegate, AgoraAudioFrameDelegate {
+open class AgoraManager: NSObject, ObservableObject, AgoraRtcEngineDelegate {
     /// The Agora App ID for the session.
     public let appId: String
     /// The client's role in the session.
@@ -28,11 +28,14 @@ open class AgoraManager: NSObject, ObservableObject, AgoraRtcEngineDelegate, Ago
         //if let engine { return engine }
         return setupEngine()
     }
-
+    
+    var audioFrameDelegate: ModifyAudioFrameDelegate?
+    
     open func setupEngine() -> AgoraRtcEngineKit {
         let eng = AgoraRtcEngineKit.sharedEngine(withAppId: appId, delegate: self)
         eng.enableVideo()
         eng.setClientRole(role)
+        setAudio(eng: eng)
         self.engine = eng
         return eng
     }
@@ -58,7 +61,6 @@ open class AgoraManager: NSObject, ObservableObject, AgoraRtcEngineDelegate, Ago
     /// - Returns: Error code, 0 = success, &lt; 0 = failure.
     @discardableResult
     open func joinChannel(_ channel: String, token: String? = nil, uid: UInt = 0, info: String? = nil) -> Int32 {
-        
         self.agoraEngine.joinChannel(
             byToken: token, channelId: channel, info: info, uid: uid
         )
@@ -151,9 +153,19 @@ open class AgoraManager: NSObject, ObservableObject, AgoraRtcEngineDelegate, Ago
         }
     }
     
-    func startAudioCapture() {
-        self.agoraEngine.setAudioFrameDelegate(self)
-        self.agoraEngine.enableAudio()
-        
+    func setAudio(eng: AgoraRtcEngineKit ) {
+        // Audio Setup
+        self.audioFrameDelegate = ModifyAudioFrameDelegate()
+        eng.setAudioFrameDelegate(audioFrameDelegate)
+        eng.setRecordingAudioFrameParametersWithSampleRate(
+            16000, channel: 1, mode: .readWrite, samplesPerCall: 256
+        )
+        eng.setMixedAudioFrameParametersWithSampleRate(
+            16000, channel: 1, samplesPerCall: 256
+        )
+        eng.setPlaybackAudioFrameParametersWithSampleRate(
+            16000, channel: 1, mode: .readWrite, samplesPerCall: 256
+        )
+        eng.enableAudio()
     }
 }

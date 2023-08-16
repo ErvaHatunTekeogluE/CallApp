@@ -7,6 +7,7 @@
 
 import SwiftUI
 import AgoraRtcKit
+import Koala
 
 /// AgoraRtcVideoCanvas must have the `ObservableObject` protocol applied,
 /// so it can be a `@StateObject` for ``AgoraVideoCanvasView``.
@@ -110,7 +111,6 @@ public struct AgoraVideoCanvasView: UIViewRepresentable {
         if let manager {
             self.setUserId(to: self.canvasIdType, agoraEngine: manager.agoraEngine)
         }
-        
         return canvasView
     }
     
