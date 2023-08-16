@@ -1,0 +1,20 @@
+PODS:
+  - ios-voice-processor (1.1.0)
+  - Koala-iOS (1.0.0)
+
+DEPENDENCIES:
+  - ios-voice-processor (~> 1.1.0)
+  - Koala-iOS (~> 1.0.0)
+
+SPEC REPOS:
+  trunk:
+    - ios-voice-processor
+    - Koala-iOS
+
+SPEC CHECKSUMS:
+  ios-voice-processor: 8e32d7f980a06d392d128ef1cd19cf6ddcaca3c1
+  Koala-iOS: 98ccd64b2531c57a0380dae47ea4105c4c5ae641
+
+PODFILE CHECKSUM: 1c50efd24bcee37def8b30d2ff624854c1c1d5cc
+
+COCOAPODS: 1.12.0

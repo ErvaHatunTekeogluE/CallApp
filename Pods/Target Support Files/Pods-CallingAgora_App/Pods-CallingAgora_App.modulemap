@@ -1,0 +1,6 @@
+module Pods_CallingAgora_App {
+  umbrella header "Pods-CallingAgora_App-umbrella.h"
+
+  export *
+  module * { export * }
+}
