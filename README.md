@@ -10,6 +10,6 @@ In order to add noise cancellation, I gett AccessKey from https://console.picovo
 
 Screenshots of the project.
 
-![IMG_0875](https://github.com/ErvaHatunTekeogluE/CallApp/assets/46326605/2129612f-b0e6-4422-891b-81dd6a0212ac)
+![IMG_0875](https://github.com/ErvaHatunTekeogluE/CallApp/assets/46326605/2129612f-b0e6-4422-891b-81dd6a0212ac) ![IMG_0876](https://github.com/ErvaHatunTekeogluE/CallApp/assets/46326605/2525280f-83a1-4cf6-ad35-f6ef5b176fe6)
 
-![IMG_0876](https://github.com/ErvaHatunTekeogluE/CallApp/assets/46326605/2525280f-83a1-4cf6-ad35-f6ef5b176fe6)
+
